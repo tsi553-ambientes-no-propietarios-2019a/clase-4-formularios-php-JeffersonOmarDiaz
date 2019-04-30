@@ -11,3 +11,29 @@
  * "Las contrseñas no coinciden".
  */
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ejercicio 4</title>
+</head>
+<body>
+<form name="formulario" method="post" action="validarRegistro.php">
+<div>
+<label>Nombre: </label>
+<input type="text" name="usuario" required="required">
+</div>
+<div>
+<label>Clave: </label>
+<input type= "password" name ="clave" required="required">
+</div>
+<div>
+<label>Confirmar clave: </label>
+<input type ="password" name = "clave2" required = "required">
+</div>
+<div>
+<button name="guardar" >Guardar</button>
+</div>
+</form>
+    
+</body>
+</html>
